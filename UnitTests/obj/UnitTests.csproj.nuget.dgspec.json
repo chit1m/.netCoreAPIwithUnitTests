@@ -1,0 +1,170 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\E0551895\\Documents\\Schlumberger\\Final999999999\\UnitTests\\UnitTests.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\E0551895\\Documents\\Schlumberger\\Final999999999\\.netcoreAPIwithunittests\\WebsiteCustomers.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\E0551895\\Documents\\Schlumberger\\Final999999999\\.netcoreAPIwithunittests\\WebsiteCustomers.csproj",
+        "projectName": "WebsiteCustomers",
+        "projectPath": "C:\\Users\\E0551895\\Documents\\Schlumberger\\Final999999999\\.netcoreAPIwithunittests\\WebsiteCustomers.csproj",
+        "packagesPath": "C:\\Users\\E0551895\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\E0551895\\Documents\\Schlumberger\\Final999999999\\.netcoreAPIwithunittests\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\E0551895\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Users\\E0551895\\Downloads\\Microsoft.Azure.Cosmos.3.16.600": {},
+          "C:\\Users\\E0551895\\Downloads\\Microsoft.Azure.Cosmos.3.16.800": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.AspNetCore.Mvc.Core": {
+              "target": "Package",
+              "version": "[2.2.5, )"
+            },
+            "Moq": {
+              "target": "Package",
+              "version": "[4.16.1, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.1.5, )"
+            },
+            "Swashbuckle.AspNetCore.Annotations": {
+              "target": "Package",
+              "version": "[6.1.5, )"
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\E0551895\\Documents\\Schlumberger\\Final999999999\\UnitTests\\UnitTests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\E0551895\\Documents\\Schlumberger\\Final999999999\\UnitTests\\UnitTests.csproj",
+        "projectName": "UnitTests",
+        "projectPath": "C:\\Users\\E0551895\\Documents\\Schlumberger\\Final999999999\\UnitTests\\UnitTests.csproj",
+        "packagesPath": "C:\\Users\\E0551895\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\E0551895\\Documents\\Schlumberger\\Final999999999\\UnitTests\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\E0551895\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Users\\E0551895\\Downloads\\Microsoft.Azure.Cosmos.3.16.600": {},
+          "C:\\Users\\E0551895\\Downloads\\Microsoft.Azure.Cosmos.3.16.800": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\Users\\E0551895\\Documents\\Schlumberger\\Final999999999\\.netcoreAPIwithunittests\\WebsiteCustomers.csproj": {
+                "projectPath": "C:\\Users\\E0551895\\Documents\\Schlumberger\\Final999999999\\.netcoreAPIwithunittests\\WebsiteCustomers.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[16.5.0, )"
+            },
+            "coverlet.collector": {
+              "target": "Package",
+              "version": "[1.2.0, )"
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.4.0, )"
+            },
+            "xunit.runner.visualstudio": {
+              "target": "Package",
+              "version": "[2.4.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
